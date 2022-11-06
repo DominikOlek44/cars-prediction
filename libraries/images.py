@@ -10,7 +10,7 @@ class Images:
         self.cars_dir = cars_dir
         self.without_cars = without_cars
 
-    def creatingDirs(self):
+    def createDirectories(self):
         root_path = 'libraries'
         os.mkdir(os.path.join(root_path, self.main_directory))
         sub_folders = [self.cars_dir, self.without_cars]
@@ -21,7 +21,7 @@ class Images:
             print(e)
 
 
-    def deletingWrongImages(self):
+    def deleteWrongImages(self):
         # function deletes wrong image extension
         ext = ['jpeg', 'jpg', 'bmp', 'png']
         directory = self.main_directory
@@ -47,5 +47,5 @@ class Images:
 
 
 if __name__ == '__main__':
-    pre = Preprocessing()
+    pre = Images()
     pre.creatingDirs()
