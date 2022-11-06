@@ -4,7 +4,7 @@ import cv2
 import imghdr
 
 
-class Preprocessing:
+class Images:
     def __init__(self, main_directory = 'data', cars_dir= 'cars', without_cars = 'without_cars'):
         self.main_directory = main_directory
         self.cars_dir = cars_dir
