@@ -48,4 +48,4 @@ class Images:
 
 if __name__ == '__main__':
     pre = Images()
-    pre.creatingDirs()
+    pre.createDirectories()
