@@ -2,7 +2,7 @@ import tensorflow as tf
 import os
 
 
-class Preprocessing():
+class Preprocessing:
     def __init__(self, main_directory = 'data', reduce = 255):
         self.main_directory = main_directory
         self.reduce = reduce
